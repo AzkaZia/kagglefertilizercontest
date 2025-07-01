@@ -1,0 +1,12 @@
+try1: using RFC; MAP@3 Score: 0.2933
+try1: using catboost MAP@3 Score (CatBoost): 0.3175 kaggle score: 0.27192 rank 1333/1581
+try2: testing lr, xgboost and lightgb, using xgboost. hyperparameter tuning score kaggle : 0.2704
+try3: ensemble of xgb and catboost and lgb: best weights were  best weights: XGB=0.50, LGB=0.00, CAT=0.50
+
+Going to try feature engineering
+
+scores (untuned): 
+RFC: 0.2933
+Logistic Regression: 0.2839
+XGBoost: 0.3299
+LightGBM: 0.3207
